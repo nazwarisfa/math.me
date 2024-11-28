@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Penulis - Nazwa Risfaida</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff512f, #f09819, #ffdd00);
+            color: #000; /* Warna hitam untuk teks */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: #fff; /* Latar putih */
+            border-radius: 15px; /* Sudut kotak tumpul */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            width: 90%;
+            max-width: 700px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+
+        .profile-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px; /* Membuat bentuk kotak dengan ujung tumpul */
+            margin-bottom: 20px; /* Jarak antara foto dan teks */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .profile-photo:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #333; /* Warna teks abu-abu gelap */
+        }
+
+        .bio {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-top: 10px;
+            text-align: justify; /* Teks rata kiri-kanan */
+            color: #555; /* Warna teks abu-abu terang */
+        }
+
+        @media (max-width: 600px) {
+            .name {
+                font-size: 24px;
+            }
+
+            .bio {
+                font-size: 14px;
+                padding: 0 10px;
+            }
+
+            .profile-card {
+                padding: 20px; /* Padding lebih kecil untuk perangkat kecil */
+            }
+
+            .profile-photo {
+                width: 180px; /* Ukuran foto lebih kecil di perangkat kecil */
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <img src="saya.jpg" alt="Foto Nazwa Risfaida" class="profile-photo">
+            <h2 class="name">Nazwa Risfaida</h2>
+            <p class="bio">
+                Nama saya Nazwa Risfaida. Saat ini, saya sedang menempuh pendidikan di Fakultas Keguruan dan Ilmu Pendidikan, Program Studi Pendidikan Matematika di Universitas Mataram dan sudah berada di semester 5.<br>
+                Saya mengerjakan website ini sebagai bagian dari tugas mata kuliah pemrograman website. Tujuan utama dari website ini adalah untuk menyediakan materi pembelajaran matematika yang mudah diakses dan dipahami oleh siswa. Dengan menyajikan konten yang relevan dan menarik, saya berharap dapat membantu siswa dalam memahami konsep-konsep matematika dengan lebih baik.<br>
+                Sebagai seorang calon pendidik, saya menyadari pentingnya menyajikan materi pembelajaran yang efektif dan interaktif. Melalui website ini, saya ingin berbagi sumber belajar yang dapat membantu siswa dalam belajar matematika secara mandiri. Saya juga berusaha untuk menciptakan pengalaman belajar yang menyenangkan dan menumbuhkan minat siswa terhadap mata pelajaran matematika. Dengan semangat untuk membantu siswa belajar dan berkembang, saya berharap website ini dapat menjadi sumber informasi yang berguna bagi banyak orang.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

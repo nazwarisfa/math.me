@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pra Materi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #000000;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #ffffff !important;
+        }
+
+        .content {
+            max-width: 650px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            margin-top: 100px;
+            text-align: left; /* Teks rata kiri */
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 40px;
+        }
+
+        iframe {
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .text-interactive {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .question-section {
+            margin-top: 40px;
+        }
+
+        .form-label {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #000000;
+        }
+
+        .form-control {
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .btn-navigation {
+            background-color: #007bff;
+            color: white;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            text-align: center;
+            width: 48%; /* Set width for button */
+        }
+
+        .btn-navigation:hover {
+            background-color: #0056b3;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Logo Unram.png" alt="Logo" style="width:60px;" class="rounded-pill" />
+            </a>
+            <a class="navbar-brand" href="#">Nazwa Risfaida</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="halamanutamawebsite.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" aria-current="page" href="kuissebelummateri.html">Pra Materi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" aria-current="page" href="materiperbandinganberbaliknilai.html">Materi</a>
+                    <li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="latihanperbandinganberbaliknilai.html">Latihan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tugas</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="profil.html">Profil</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="text-interactive">
+            <h2>Pertama, Ayo Lihat Video Ini untuk Memulai Perjalanan Kita!</h2>
+            <p>Siapkan dirimu dan perhatikan video ini untuk pemahaman yang lebih seru tentang materi yang akan kita pelajari!</p>
+        </div>
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/SEAEKUcvKgc?si=10nQUf6hurntc2jJ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+
+        <div class="question-section">
+            <h2>Kedua, Jawablah Pertanyaan di Bawah Ini</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="question1" class="form-label">1. Menurut pemahamanmu setelah menonton video, apa yang dimaksud dengan perbandingan berbalik nilai dalam konteks video tersebut?</label>
+                    <textarea class="form-control" id="question1" rows="3" placeholder="Tulis jawabanmu di sini"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="question2" class="form-label">2. Sebutkan dua contoh kehidupan sehari-hari di mana perbandingan berbalik nilai dapat diterapkan.</label>
+                    <textarea class="form-control" id="question2" rows="3" placeholder="Jelaskan situasi di mana hubungan antara dua variabel berbalik seperti yang dijelaskan dalam video."></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="question3" class="form-label">3. Apa saja 3 point penting yang kamu dapatkan setelah menonton video tersebut?</label>
+                    <textarea class="form-control" id="question3" rows="3" placeholder="Tulis jawabanmu di sini"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="question-section">
+            <h2>Ketiga, Apa yang Dapat Kamu Simpulkan?</h2>
+            <form>
+                <div class="mb-3">
+                    <textarea class="form-control" id="conclusion" rows="4" placeholder="Tulis kesimpulanmu di sini"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="button-container">
+            <button class="btn-navigation" onclick="location.href='halamanutamawebsite.html'">Sebelumnya</button>
+            <button class="btn-navigation" onclick="location.href='materiperbandinganberbaliknilai.html'">Selanjutnya</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
